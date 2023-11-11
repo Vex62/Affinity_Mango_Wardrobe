@@ -15,7 +15,7 @@ def print_log(message):
     print(f'{message}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-def create_outfit(tops_data, bottoms_data, footwear_data, patterns):
+def create_outfit(tops_data, products_data_list, patterns):
     # generate random top and for every pattern save the specific characteristic of top
     top = tops_data.sample()
     top_pattern = []
@@ -23,30 +23,24 @@ def create_outfit(tops_data, bottoms_data, footwear_data, patterns):
     for pattern in patterns:
         top_pattern.append(top[pattern[0]].values[0])
 
-    # find a valid bottom
-    validBottom = False
-    while not validBottom:
-        bottom = bottoms_data.sample()
-        for idx, pattern in enumerate(patterns):
-            if bottom[pattern[0]].values[0] == top_pattern[idx]\
-                    and (bottom['des_sex'].values[0] == sex or bottom['des_sex'].values[0] == 'Unisex'):
-                validBottom = True
-            else:
-                validBottom = False
+    # append products
+    products = [top['cod_modelo_color']]
 
-    # find a valid footwear
-    validFootwear = False
-    while not validFootwear:
-        footwear = footwear_data.sample()
-        for idx, pattern in enumerate(patterns):
-            if footwear[pattern[0]].values[0] == top_pattern[idx]\
-                    and (footwear['des_sex'].values[0] == sex or footwear['des_sex'].values[0] == 'Unisex'):
-                validFootwear = True
-            else:
-                validFootwear = False
+    # find a matching products
+    for product_data in products_data_list:
+        validProduct = False
+        product = product_data.sample()
+        while not validProduct:
+            product = product_data.sample()
+            for idx, pattern in enumerate(patterns):
+                if product[pattern[0]].values[0] == top_pattern[idx]\
+                        and (product['des_sex'].values[0] == sex or product['des_sex'].values[0] == 'Unisex'):
+                    validProduct = True
+                else:
+                    validProduct = False
+        products.append(product['cod_modelo_color'])
 
-
-    return [top['cod_modelo_color'], bottom['cod_modelo_color'], footwear['cod_modelo_color']]
+    return products
 
 
 def add_outfit(new_products_list):
@@ -90,9 +84,14 @@ def main():
     joined_data.to_csv('datathon/dataset/joined_data.csv', index=False)"""
 
     # type of elements of one outfi
+    products = []
     tops_data = product_data[product_data['des_product_category'] == 'Tops']
     bottoms_data = product_data[product_data['des_product_category'] == 'Bottoms']
+    products.append(bottoms_data)
     footwear_data = product_data[product_data['des_product_family'] == 'Footwear']
+    products.append(footwear_data)
+    jewellery_data = product_data[product_data['des_product_family'] == 'Jewellery']
+    products.append(jewellery_data)
 
     # declaration of patterns
     patterns = []
@@ -101,7 +100,7 @@ def main():
 
     # outfits creation
     for i in range(0,9):
-        list_outfit_products = create_outfit(tops_data, bottoms_data, footwear_data, patterns)
+        list_outfit_products = create_outfit(tops_data, products, patterns)
         add_outfit(list_outfit_products)
 
     custom_outfit_data = pd.read_csv('datathon/dataset/custom_outfit_data.csv')
