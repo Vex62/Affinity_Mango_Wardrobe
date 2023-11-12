@@ -150,14 +150,17 @@ def main():
     #products.append(jewellery_data)
 
     # declaration of patterns
-    # patternDiscovery = PatternDiscovery()
-    # patternDiscovery.feature_matching('des_product_type', joined_data)
+    #patternDiscovery = PatternDiscovery()
+    #patternDiscovery.color_matching()
+    #patternDiscovery.fabric_matching()
 
     patterns = []
     color_matching = csv_to_dic("datathon/patterns/color_matching.csv", "des_agrup_color_eng", 300)
     patterns.append(["des_agrup_color_eng", color_matching])
     product_types = csv_to_dic("datathon/patterns/des_product_type_matching.csv", "des_product_type", 10)
     patterns.append(["des_product_type", product_types])
+    fabric_matching = csv_to_dic("datathon/patterns/fabric_matching.csv", "des_fabric", 1000)
+    patterns.append(["des_fabric", fabric_matching])
 
     # outfits creation
     for i in range(0, 9):

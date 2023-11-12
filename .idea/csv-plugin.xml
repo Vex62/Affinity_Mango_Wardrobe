@@ -59,6 +59,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\datathon\patterns\fabric_matching.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
