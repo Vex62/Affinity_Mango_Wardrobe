@@ -1,37 +1,63 @@
 cod_outfit,cod_modelo_color,cod_color_code,des_color_specification_esp,des_agrup_color_eng,des_sex,des_age,des_line,des_fabric,des_product_category,des_product_aggregated_family,des_product_family,des_product_type,des_filename
-1,57013817-81,81,ROSA PASTEL,PINK,Female,Adult,SHE,P-PLANA,Tops,Shirts,Shirt,Blouse,datathon/images/2023_57013817_81.jpg
-1,57098634-85,85,ROSA,PINK,Female,Adult,SHE,K-CIRCULAR,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2023_57098634_85.jpg
-1,47075965-80,80,NUDE,PINK,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2023_47075965_80.jpg
-1,57040078-88,88,FUCSIA,PINK,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_57040078_88.jpg
-2,47097113-01,01,BLANCO,WHITE,Female,Adult,SHE,K-CIRCULAR,Tops,Tops,Tops,Top,datathon/images/2023_47097113_01.jpg
-2,47027888-08,08,BEIGE,WHITE,Female,Adult,SHE,P-PLANA,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2023_47027888_08.jpg
-2,53095770-01,01,BLANCO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Trainers,datathon/images/2019_53095770_01.jpg
-2,57004055-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_57004055_OR.jpg
-3,51013791-30,30,MARRON,BROWN,Female,Adult,SHE,K-CIRCULAR,Tops,T-shirts,T-shirt,T-Shirt,datathon/images/2019_51013791_30.jpg
-3,57040730-36,36,OLIVA,BROWN,Female,Adult,SHE,P-PLANA,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2023_57040730_36.jpg
-3,57064784-CO,CO,COBRE,BROWN,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2023_57064784_CO.jpg
-3,53050753-32,32,CHOCOLATE,BROWN,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2019_53050753_32.jpg
-4,57089088-56,56,NAVY,BLUE,Female,Adult,SHE,T-TRICOT,Tops,Tops,Tops,Top,datathon/images/2023_57089088_56.jpg
-4,57003811-TO,TO,TEJANO OSCURO,BLUE,Female,Adult,SHE,J-JEANS,Bottoms,Jeans,Jeans,Jeans,datathon/images/2023_57003811_TO.jpg
-4,53090580-57,57,AZUL NOCHE,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Trainers,datathon/images/2019_53090580_57.jpg
-4,43055027-46,46,TURQUESA,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Necklace,datathon/images/2019_43055027_46.jpg
-5,57088634-85,85,ROSA,PINK,Female,Adult,SHE,K-CIRCULAR,Tops,Tops,Tops,Top,datathon/images/2023_57088634_85.jpg
-5,57074002-88,88,FUCSIA,PINK,Female,Adult,SHE,K-CIRCULAR,Bottoms,Skirts and shorts,Skirts,Skirt,datathon/images/2019_57074002_88.jpg
-5,57020012-87,87,CORAL,PINK,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2023_57020012_87.jpg
-5,53030686-80,80,NUDE,PINK,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2019_53030686_80.jpg
-6,47084028-01,01,BLANCO,WHITE,Female,Adult,SHE,K-CIRCULAR,Tops,T-shirts,T-shirt,T-Shirt,datathon/images/2023_47084028_01.jpg
-6,53000586-07,07,ARENA,WHITE,Female,Adult,SHE,J-JEANS,Bottoms,Jeans,Jeans,Jeans,datathon/images/2019_53000586_07.jpg
-6,57050030-01,01,BLANCO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2023_57050030_01.jpg
-6,53191158-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Ring,datathon/images/2019_53191158_OR.jpg
-7,57089075-99,99,NEGRO,GREY,Female,Adult,SHE,P-PLANA,Tops,Shirts,Shirt,Blouse,datathon/images/2019_57089075_99.jpg
-7,53010844-99,99,NEGRO,GREY,Female,Adult,SHE,K-CIRCULAR,Bottoms,Trousers & leggings,Leggings and joggers,Leggings,datathon/images/2019_53010844_99.jpg
-7,57052508-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2023_57052508_99.jpg
-7,57004045-PL,PL,PLATA,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_57004045_PL.jpg
-8,51025759-99,99,NEGRO,GREY,Female,Adult,SHE,P-PLANA,Tops,Shirts,Shirt,Blouse,datathon/images/2019_51025759_99.jpg
-8,53033786-99,99,NEGRO,GREY,Female,Adult,SHE,P-PLANA,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2019_53033786_99.jpg
-8,53070768-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Shoes,datathon/images/2019_53070768_99.jpg
-8,57020046-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Necklace,datathon/images/2023_57020046_99.jpg
-9,57046309-56,56,NAVY,BLUE,Female,Adult,SHE,T-TRICOT,Tops,Tops,Tops,Top,datathon/images/2023_57046309_56.jpg
-9,57047698-TO,TO,TEJANO OSCURO,BLUE,Female,Adult,SHE,J-JEANS,Bottoms,Jeans,Jeans,Jeans,datathon/images/2019_57047698_TO.jpg
-9,57037904-TO,TO,TEJANO OSCURO,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Shoes,datathon/images/2023_57037904_TO.jpg
-9,57040072-52,52,AZUL,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_57040072_52.jpg
+1,53020890-01,01,BLANCO,WHITE,Female,Adult,SHE,K-CIRCULAR,Tops,T-shirts,T-shirt,T-Shirt,datathon/images/2019_53020890_01.jpg
+1,57066019-99,99,NEGRO,GREY,Female,Adult,SHE,P-PLANA,Bottoms,Skirts and shorts,Skirts,Skirt,datathon/images/2023_57066019_99.jpg
+1,57096715-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Ankle Boots,datathon/images/2023_57096715_99.jpg
+1,53043037-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Necklace,datathon/images/2019_53043037_OR.jpg
+1,53043776-92,92,GRIS,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Handbag,datathon/images/2019_53043776_92.jpg
+1,67090516-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Kerchief,datathon/images/2020_67090516_99.jpg
+1,53023753-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2019_53023753_99.jpg
+2,53000930-05,05,CRUDO,WHITE,Female,Adult,SHE,K-CIRCULAR,Tops,Tops,Tops,Top,datathon/images/2019_53000930_05.jpg
+2,57097736-08,08,BEIGE,WHITE,Female,Adult,SHE,K-CIRCULAR,Bottoms,Skirts and shorts,Skirts,Skirt,datathon/images/2023_57097736_08.jpg
+2,67001507-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Trainers,datathon/images/2020_67001507_99.jpg
+2,43073754-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Necklace,datathon/images/2019_43073754_OR.jpg
+2,53015772-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Handbag,datathon/images/2019_53015772_99.jpg
+2,43099087-50,50,CELESTE,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Beanie,datathon/images/2019_43099087_50.jpg
+2,43025758-08,08,BEIGE,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2019_43025758_08.jpg
+3,57074012-07,07,ARENA,WHITE,Female,Adult,SHE,K-CIRCULAR,Tops,Shirts,Shirt,Blouse,datathon/images/2023_57074012_07.jpg
+3,57047728-28,28,TERRACOTA,ORANGE,Female,Adult,SHE,K-CIRCULAR,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2023_57047728_28.jpg
+3,57050310-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Shoes,datathon/images/2023_57050310_99.jpg
+3,47015851-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Necklace,datathon/images/2023_47015851_OR.jpg
+3,53050624-45,45,AGUA,GREEN,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Handbag,datathon/images/2019_53050624_45.jpg
+3,57084018-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2023_57084018_99.jpg
+4,51003031-01,01,BLANCO,WHITE,Female,Adult,SHE,P-PLANA,Tops,Shirts,Shirt,Shirt,datathon/images/2019_51003031_01.jpg
+4,57075979-05,05,CRUDO,WHITE,Female,Adult,SHE,P-PLANA,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2023_57075979_05.jpg
+4,57010006-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2023_57010006_99.jpg
+4,47055956-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_47055956_OR.jpg
+4,57037751-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Crossbody bag,datathon/images/2023_57037751_99.jpg
+4,47023255-15,15,MOSTAZA,YELLOW,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Kerchief,datathon/images/2023_47023255_15.jpg
+4,57000367-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2023_57000367_99.jpg
+5,57005813-09,09,CAMEL,WHITE,Female,Adult,SHE,T-TRICOT,Tops,Sweaters and Cardigans,Sweater,Sweater,datathon/images/2023_57005813_09.jpg
+5,57020152-01,01,BLANCO,WHITE,Female,Adult,SHE,J-JEANS,Bottoms,Skirts and shorts,Shorts,Shorts,datathon/images/2023_57020152_01.jpg
+5,57065939-02,02,OFFWHITE,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Ankle Boots,datathon/images/2019_57065939_02.jpg
+5,53030715-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2019_53030715_OR.jpg
+5,57065149-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Crossbody bag,datathon/images/2023_57065149_99.jpg
+5,53060575-52,52,AZUL,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Kerchief,datathon/images/2019_53060575_52.jpg
+5,57050028-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2023_57050028_OR.jpg
+6,57059204-99,99,NEGRO,GREY,Female,Adult,SHE,T-TRICOT,Tops,Tops,Tops,Top,datathon/images/2019_57059204_99.jpg
+6,51050933-15,15,MOSTAZA,YELLOW,Female,Adult,SHE,P-PLANA,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2019_51050933_15.jpg
+6,57065971-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Ankle Boots,datathon/images/2023_57065971_99.jpg
+6,57004052-PL,PL,PLATA,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_57004052_PL.jpg
+6,57078273-30,30,MARRON,BROWN,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Crossbody bag,datathon/images/2023_57078273_30.jpg
+6,53035016-91,91,GRIS CLARO VIGORE,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Beanie,datathon/images/2019_53035016_91.jpg
+6,57094432-30,30,MARRON,BROWN,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2023_57094432_30.jpg
+7,53060987-79,79,CALDERO,RED,Female,Adult,SHE,T-TRICOT,Tops,Tops,Tops,Top,datathon/images/2019_53060987_79.jpg
+7,47011308-TM,TM,TEJANO MEDIO,BLUE,Female,Adult,SHE,J-JEANS,Bottoms,Jeans,Jeans,Jeans,datathon/images/2023_47011308_TM.jpg
+7,53040521-07,07,ARENA,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2019_53040521_07.jpg
+8,53040521-07,07,ARENA,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2019_53040521_07.jpg
+7,43090723-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Ring,datathon/images/2019_43090723_OR.jpg
+7,57000358-12,12,AMARILLO,YELLOW,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Totes bag,datathon/images/2023_57000358_12.jpg
+7,53090528-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Foulard,datathon/images/2019_53090528_99.jpg
+7,53033751-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2019_53033751_99.jpg
+8,57007688-37,37,KHAKI,BROWN,Female,Adult,SHE,T-TRICOT,Tops,Sweaters and Cardigans,Sweater,Sweater,datathon/images/2019_57007688_37.jpg
+8,53050602-01,01,BLANCO,WHITE,Female,Adult,SHE,J-JEANS,Bottoms,Skirts and shorts,Shorts,Shorts,datathon/images/2019_53050602_01.jpg
+8,57037879-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2019_57037879_OR.jpg
+8,57075148-TM,TM,TEJANO MEDIO,BLUE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Crossbody bag,datathon/images/2023_57075148_TM.jpg
+8,43033733-79,79,CALDERO,RED,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Kerchief,datathon/images/2019_43033733_79.jpg
+8,57074424-09,09,CAMEL,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2023_57074424_09.jpg
+9,57005833-43,43,VERDE,GREEN,Female,Adult,SHE,T-TRICOT,Tops,Sweaters and Cardigans,Sweater,Sweater,datathon/images/2023_57005833_43.jpg
+9,51080907-30,30,MARRON,BROWN,Female,Adult,SHE,P-PLANA,Bottoms,Trousers & leggings,Trousers,Trousers,datathon/images/2019_51080907_30.jpg
+9,43027025-99,99,NEGRO,GREY,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Footwear,Sandals,datathon/images/2019_43027025_99.jpg
+9,57050271-OR,OR,ORO,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Jewellery,Earrings,datathon/images/2023_57050271_OR.jpg
+9,57001503-80,80,NUDE,PINK,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Bags,Crossbody bag,datathon/images/2023_57001503_80.jpg
+9,57015996-09,09,CAMEL,WHITE,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,"Hats, scarves and gloves",Scarf,datathon/images/2023_57015996_09.jpg
+9,57050554-30,30,MARRON,BROWN,Female,Adult,SHE,C-COMPLEMENTOS,"Accesories, Swim and Intimate",Accessories,Belts and Ties,Belt,datathon/images/2023_57050554_30.jpg
