@@ -273,13 +273,13 @@ def main():
     custom_joined_data.to_csv('datathon/dataset/custom_joined_data.csv', index=False)
 
     st.set_page_config(
-        page_title="Outfit App",
+        page_title="Affinity Mango Wardrobe",
         page_icon="👚",
         layout="centered",
         initial_sidebar_state="expanded",
     )
 
-    st.title("Outfit App")
+    st.title("Affinity Mango Wardrobe")
 
     # Página de inicio con dos botones
     selected_option = st.sidebar.radio("Select an option", ["Create Outfit", "Show Statistics"])
