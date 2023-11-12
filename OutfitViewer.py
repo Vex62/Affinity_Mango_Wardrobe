@@ -1,48 +1,22 @@
-import kivy
+import streamlit as st
 import pandas as pd
-from kivy.app import App
-from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.image import Image
-from kivy.uix.button import Button
 
 
-class OutfitViewer(App):
-    def build(self):
-        self.outfit_data = pd.read_csv('datathon/dataset/custom_joined_data.csv')
-        self.outfits_iter = iter(self.outfit_data['cod_outfit'].unique())
-        self.layout = BoxLayout(orientation='vertical')
-        self.show_outfit()
-        return self.layout
+class OutfitViewer:
+    def __init__(self, data):
+        self.data = data
+        self.outfit_ids = self.data['cod_outfit'].unique()
+        self.current_outfit_id = None
 
-    def show_outfit(self):
-        try:
-            outfit_actual = next(self.outfits_iter)
-        except StopIteration:
-            self.layout.clear_widgets()
-            self.layout.add_widget(Button(text="Fin del dataset", size_hint=(None, None), size=(200, 100)))
-            return
+    def show_next_outfit(self):
+        if self.current_outfit_id is None:
+            self.current_outfit_id = self.outfit_ids[0]
+        else:
+            current_index = list(self.outfit_ids).index(self.current_outfit_id)
+            next_index = (current_index + 1) % len(self.outfit_ids)
+            self.current_outfit_id = self.outfit_ids[next_index]
 
-        self.layout.clear_widgets()
-
-        # Mostrar el código del outfit actual
-        etiqueta = Button(text=f"Outfit: {outfit_actual}", size_hint=(None, None), size=(200, 100))
-        etiqueta.bind(on_press=lambda instance: self.show_outfit())
-        self.layout.add_widget(etiqueta)
-
-        # Mostrar imágenes de productos asociados al outfit actual
-        productos = self.outfit_data[self.outfit_data['cod_outfit'] == outfit_actual]
-        fila_actual = BoxLayout(orientation='horizontal', spacing=10)
-
-        for index, row in productos.iterrows():
-            imagen_path = row['des_filename']
-            imagen = Image(source=imagen_path, size=(200, 200), size_hint=(None, None))
-            fila_actual.add_widget(imagen)
-
-            # Mostrar hasta 3 elementos por fila
-            if len(fila_actual.children) == 5:
-                self.layout.add_widget(fila_actual)
-                fila_actual = BoxLayout(orientation='horizontal', spacing=10)
-
-        # Agregar la última fila si no tiene 3 elementos
-        if len(fila_actual.children) > 0:
-            self.layout.add_widget(fila_actual)
+    def get_current_outfit_images(self):
+        current_outfit_data = self.data[self.data['cod_outfit'] == self.current_outfit_id]
+        images = current_outfit_data['des_filename'].tolist()
+        return images
