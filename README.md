@@ -8,6 +8,8 @@ Esta aplicación utiliza procesamiento en Python con librerías como pandas, mat
 ![image](https://github.com/Vex62/Affinity_Mango_Wardrobe/assets/101091948/f7a742cf-4651-4f16-9e8d-31ae193edaf3)
 
 ![image](https://github.com/Vex62/Affinity_Mango_Wardrobe/assets/101091948/8526d617-2538-49ba-99b8-3aab2bbe0cca)
+![image](https://github.com/Vex62/Affinity_Mango_Wardrobe/assets/101091948/6ef9ebde-940a-49e5-8b8b-bf94fd5f6d37)
+![image](https://github.com/Vex62/Affinity_Mango_Wardrobe/assets/101091948/cf132f17-a399-46d1-8572-57f087e2e001)
 
 ![image](https://github.com/Vex62/Affinity_Mango_Wardrobe/assets/101091948/559e3460-1a6c-4270-b7d9-beb56f10f278)
 
